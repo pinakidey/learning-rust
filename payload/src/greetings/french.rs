@@ -1,0 +1,1 @@
+pub fn hello()-> String {"Bonjour Rust!".to_string()}

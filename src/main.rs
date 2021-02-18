@@ -8,6 +8,8 @@
 extern crate rand;
 extern crate payload;
 
+use payload::greetings::french;
+
 mod basics;
 mod formatting;
 mod combination_lock;
@@ -39,4 +41,5 @@ fn main() {
 
     println!("This is a message from the payload crate");
     println!("{}", payload::greetings::english::hello());
+    println!("{}", french::hello());
 }
