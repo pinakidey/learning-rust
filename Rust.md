@@ -1,0 +1,69 @@
+## Learning Rust
+
+### Topics
+
+-[ ] Installation and configuration
+-[ ] Core Data Types
+    - `u8,i8,u16,i16,u32,i32,u64,i64,f32,f64`   
+    - `usize, isize`
+    - `char, bool, `
+-[ ] Operators `+-*/% += -= *= /= %=`
+-[ ] Power `i32::pow(), f64::powi(), f64;;powf()`
+-[ ] Bitwise Operators `& | ! ^`
+-[ ] Shift Operators `<< >>`
+-[ ] Logical Operators `< > <= >= == !=`
+-[ ] Using Constants `std::f64::consts::PI`
+-[ ] `static` & `unsafe`
+-[ ] Stack & Heap `Box::new(), mem::size_of_val()`
+-[ ] Conditions `if, while, for`
+-[ ] Match statement `match x {}`
+-[ ] Scope & Shadowing
+-[ ] Data Structures
+    - Structs
+    - Enums
+    - Unions
+    - Option<T>, `Some(), None, if let, while let`
+    - Arrays, Matrix
+    - Slices `1..5, 1..=5`
+    - Tuples
+    - Pattern Matching
+    - Generics
+    - Destructuring
+-[ ] Standard Collections
+    - Vec<T>
+    - VecDeque<T>
+    - LinkedList<T>
+    - BinaryHeap<T>
+    - HashMap<K,V>
+    - BTreeMap<K,V>
+    - HashSet<T>
+    - BTreeSet<T>
+    - Iterators `iter(), iter_mut(), into_inter(), extend()`
+-[ ] String & Formatting
+-[ ] Functions
+    - Methods
+    - Closure
+    - Higher-order Function `map(), filter(), take_while()`
+-[ ] **Traits**
+  - Trait parameters
+  - Into 
+  - Drop
+  - Operator overloading
+  - Static dispatch
+  - Dynamic dispatch   
+-[ ] **Lifetime & Memory**
+  - Ownership
+  - Borrowing
+  - Lifetime, Lifetime elision
+  - Reference-counted variables(Rc)
+  - Atomic Reference-counted variables(Arc)
+  - Mutex & Thread-safe mutability
+  - Circular reference (Can be implemented by using `Rc` & `RefCell`)
+    - Avoid by normalization or re-designing struct
+-[ ] **Concurrency**
+  - Threads
+  - Spawning & Joining Threads  
+
+-[ ] Crates, Modules
+-[ ] Testing
+-[ ] Documentation
